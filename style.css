@@ -1,0 +1,204 @@
+*{
+    font-family: iran_sans_light;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    padding-right: 5%;
+    padding-left: 3%;
+    position: relative;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+}
+.nike-logo{
+    width: 180px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    padding-left: 420px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+    padding-top: 50px;
+}
+.menu:hover{
+    transform: scale(1);
+    color: rgb(173, 30, 30);
+    transition: all .5s;
+}
+nav ul li a{
+    text-decoration: solid;
+    color: #F3EFBC;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cart{
+    font-size: 60px;
+    color: #F3EFBC;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.cart:hover{
+    transform: scale(1);
+    color: rgb(173, 30, 30);
+    transition: all .5s;
+}
+.content{
+    position: relative;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 25px;
+    letter-spacing: 50px;
+    font-size: 70px;
+    color: green;
+    margin-left: 50px;
+}
+h1 .style{
+    color: green;
+    font-size: 80px;
+    font-weight: 800;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 25px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    color: green;
+    margin-left: 50px;
+}
+p{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-top: 35px;
+    color: #F3EFBC;
+    width: 600px;
+}
+.text{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: greenyellow;
+    margin-top: 80px;
+    padding: 15px 45px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: .5s;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    display: block;
+    border-radius: 20px;
+    background-size: 200% auto;
+    box-shadow: 3px 8px 22px rgba(22, 21, 21, .15);
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    color: #ff5e00;
+}
+.icons{
+    color: rgb(255, 106, 0);
+    padding: 12px 12px 10px 12px;
+    border-radius: 50%;
+    background-color: #F3EFBC;
+    height: 27px;
+    width: 27px;
+    text-align: center;
+    box-shadow: 3px 8px 22px rgba(14, 67, 153, 0.15);
+}
+.icons:hover{
+    transform: scale(1.1);
+    color: rgb(194, 191, 230);
+    background: rgb(255, 106, 0);
+    transition: all .5s;
+}
+.image{
+    position: absolute;
+    width: 47%;
+    height: 47%;
+    bottom: 0;
+    margin-bottom: 170px;
+    margin-left: 500px;
+}
+.img-abt img{
+    width: 600px;
+    position: absolute;
+    bottom: 8px;
+    right: 75px;
+    top: 120px;
+    font-size: 18px;
+}
+footer {
+    display: flex;
+}
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.fMenuTitle {
+    font-size: 16px;
+    letter-spacing: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.fList {
+    padding: 0;
+    list-style: none;
+}
+.fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fInput {
+    padding: 5px;
+}
+.fButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.fIcons{
+    display: flex;
+}
+.fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.copyright{
+    font-weight: 300;
+    font-size: 14px;
+}
